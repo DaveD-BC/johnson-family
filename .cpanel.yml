@@ -1,6 +1,7 @@
 ---
 deployment:
   tasks:
+    - /bin/mkdir ./davefromyaml
     - export DEPLOYPATH=/home4/johnspz2/public_html/
     - /bin/cp -R test.js $DEPLOYPATH
   
